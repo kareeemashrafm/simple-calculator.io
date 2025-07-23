@@ -18,7 +18,7 @@ body{
 }
 
 .calc{
-  background-color: rgb(238,238,238);
+  background-color: rgba(0, 0, 0, 0.678);
   border: 6px solid rgb(170,170,170) ;
   border-radius: 9px;
   display: flex;
@@ -30,8 +30,12 @@ body{
 
 }
 .screen input{
+  display: flex;
+  align-items: center;
+  margin:auto;
+  justify-content: center;
   box-sizing: border-box;
-  width: 100%;
+  width: 95%;
   height: 100px;
   font-size: 36px;
   padding: 10px;
