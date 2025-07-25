@@ -69,7 +69,7 @@ display: flex;
 
 .op{
 
-  border: 1px solid palevioletred;
+  border: 1px solid rgba(0, 0, 0, 0.295);
   width: 100px;
   height: 100px;
   justify-content:center;
@@ -78,5 +78,5 @@ display: flex;
   box-sizing: border-box;
   border-radius: 6px;
   background-color: #ffb732;
-  font-size: 20px;
+  font-size: 23px;
 }
