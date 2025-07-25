@@ -23,8 +23,8 @@ body{
   border-radius: 9px;
   display: flex;
   flex-direction: column;
-  height: 460px;
-  width: 500px;
+  height: 600px;
+  width: 400px;
   justify-content: space-between;
   padding: 0;
 

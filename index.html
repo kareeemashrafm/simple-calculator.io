@@ -12,27 +12,37 @@
 <body>
   <h1 class="title">Simple Calculator</h1>
   <div class="calc">
-    <div class="screen"><input type="number"></div>
+    <div class="screen"><input type="text" id="screen"></div>
     <div class="buttons">
     <div class="row">
-      <button class="num" onclick="setvalue(7)">7</button>
-      <button class="num" onclick="setvalue(8)">8</button>
-      <button class="num"onclick="setvalue(9)">9</button>
-      <button class="op" onclick="add()">+</button>
-      <button class="op">-</button>
+      <button class="num" onclick="setdisplay(7)">7</button>
+      <button class="num" onclick="setdisplay(8)">8</button>
+      <button class="num"onclick="setdisplay(9)">9</button>
+      <button class="op" onclick="setdisplay('/')">/</button>
+      
+      
     </div>
     <div class="row">
-      <button class="num"onclick="setvalue(4)">4</button>
-      <button class="num"onclick="setvalue(5)">5</button>
-      <button class="num"onclick="setvalue(6)">6</button>
-      <button class="op">*</button>
-      <button class="op">/</button>
+      <button class="num"onclick="setdisplay(4)">4</button>
+      <button class="num"onclick="setdisplay(5)">5</button>
+      <button class="num"onclick="setdisplay(6)">6</button>
+      <button class="op" onclick="setdisplay('*')">*</button>
+      
     </div>
     <div class="row">
-      <button class="num"onclick="setvalue(1)">1</button>
-      <button class="num"onclick="setvalue(2)">2</button>
-      <button class="num"onclick="setvalue(3)">3</button>
-      <button class="op">Clear</button>
+      <button class="num"onclick="setdisplay(1)">1</button>
+      <button class="num"onclick="setdisplay(2)">2</button>
+      <button class="num"onclick="setdisplay(3)">3</button>
+      <button class="op" onclick="setdisplay('-')">-</button>
+      
+      
+    </div>
+    <div class="row">
+      <button class="num"onclick="setdisplay(0)">0</button>
+      <button class="op" onclick="clearscreen()">Clear</button>
+      <button class="op" id="equal" onclick="calculate()">=</button>
+      <button class="op" onclick="setdisplay('+')">+</button>
+      
     </div>
    
 
