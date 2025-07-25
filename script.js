@@ -1,16 +1,9 @@
 let value='';
-let sum='';
 let operator='';
 let num1='';
 let num2='';
 let secondnum = false;
 let iscalc=false;
-
-function setvalue(num){
-  
-value=num;
-console.log(value);
-}
 
 
 function divide(num1,num2){
